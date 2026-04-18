@@ -60,6 +60,44 @@ The system performs:
 validate_syntax(syntax);
 
 
+#### ✔ Validation
+```c
+validate_syntax(syntax);
+
+
+calculator_project/
+│
+├── main.c
+├── service/
+│   └── app.h
+│
+├── HAL/
+│   ├── CLCD/
+│   └── KEYPAD/
+│
+├── MCAL/
+│   └── PORT/
+│
+├── the_schematic.png
+``` id="calc_tree_01"
+
+---
+```
+## 🧪 Hardware Requirements
+
+- ATmega32
+- 16x2 LCD
+- 4x4 Keypad
+- 8 MHz clock
+
+---
+
+## 🔌 Simulation
+
+This project was tested using Proteus simulation.
+
+### 📌 Circuit Diagram
+![Calculator Schematic](the_schematic.png)
 calculator_project/
 │
 ├── main.c
